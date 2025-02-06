@@ -19,13 +19,35 @@
 O objetivo do desafio é analisar as transações dos clientes a partir de um banco de dados relacional, respondendo perguntas sobre saldo, movimentações e comportamento financeiro. <ins>Este projeto inclui duas abordagens:</ins>  
 
 SQL puro – Resolvendo as consultas diretamente no banco de dados.  
-Python + Databricks – Utilizando PySpark e SQL para processar os dados de maneira escalável.
+Python + Databricks – Utilizando PySpark para processar os dados de maneira escalável.
 
-<h2 id="structure">🤖 Estrutura do Banco de Dados </h2>
-![Tabelas](https://imgur.com/a/N2Rafh7)
+<h2 id="structure">🤖 Estrutura dos Dados </h2>
+
+TbTransacoes:
+
+| Coluna        | Tipo     |
+|---------------|----------|
+| CD_CLIENTE    | INTEGER  |
+| DT_TRANSACAO  | DATE     |
+| CD_TRANSACAO  | INTEGER  |
+| VR_TRANSACAO  | FLOAT    |
+
+TbCliente:
+
+| Coluna        | Tipo     |
+|---------------|----------|
+| CD_CLIENTE    | INTEGER  |
+| NM_CLIENTE    | VARCHAR  |
+
+**Relacionamento:**
+
+* TbTransacoes e TbCliente estão relacionadas através da coluna CD_CLIENTE.
+* Um cliente (TbCliente) pode ter várias transações (TbTransacoes).
+* Uma transação (TbTransacoes) está associada a um único cliente (TbCliente).
 
 
 <h2 id="technologies">🤖 Sobre as tecnologias utilizadas </h2>
+Neste projeto, utilizei o PySpark em conjunto com o Databricks, uma plataforma de análise de dados altamente escalável, que oferece suporte a PySpark para processamento distribuído. O PySpark tem uma capacidade de processar grandes volumes de dados de forma distribuída e eficiente, o que é essencial para o contexto de transações financeiras. Além disso, eu também respondi as mesmas 12 perguntas em SQL para explorar ambas abordagens.
 
 <h2 id="aboutproject">📝 Especificação do Projeto</h2>
 
