@@ -1,0 +1,2 @@
+SELECT COUNT(DISTINCT CD_CLIENTE) AS qtd_usuarios
+FROM TbTransacoes;
