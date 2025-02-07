@@ -46,7 +46,7 @@ TbCliente:
 
 
 <h2 id="technologies">🤖 Sobre as tecnologias utilizadas </h2>
-Neste projeto, utilizei o PySpark em conjunto com o Databricks, uma plataforma de análise de dados altamente escalável, que oferece suporte a PySpark para processamento distribuído. O PySpark tem uma capacidade de processar grandes volumes de dados de forma distribuída e eficiente, o que é essencial para o contexto de transações financeiras. Além disso, eu também respondi as mesmas 12 perguntas em SQL para explorar ambas abordagens.
+Neste projeto, utilizei o PySpark em conjunto com o Databricks, uma plataforma de análise de dados altamente escalável, que oferece suporte a PySpark para processamento distribuído. O PySpark tem uma capacidade de processar grandes volumes de dados de forma distribuída e eficiente, o que é essencial para o contexto de transações financeiras. Além disso, eu também respondi as mesmas 13 perguntas em SQL para explorar ambas abordagens.
 
 <h2 id="aboutproject">📝 Especificação do Projeto</h2>
 O projto consiste em responder as seguintes perguntas:  
