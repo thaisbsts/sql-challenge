@@ -12,7 +12,6 @@
   <a href="#structure">Estrutura do Banco de Dados</a> •
   <a href="#technologies">Sobre as tecnologias utilizadas</a> •
  <a href="#aboutproject">Especificação do Projeto</a> •
- <a href="#helpful">Links Úteis</a>
 </p>
 
 <h2 id="geral">🚀 Informações Gerais</h2>
@@ -50,8 +49,30 @@ TbCliente:
 Neste projeto, utilizei o PySpark em conjunto com o Databricks, uma plataforma de análise de dados altamente escalável, que oferece suporte a PySpark para processamento distribuído. O PySpark tem uma capacidade de processar grandes volumes de dados de forma distribuída e eficiente, o que é essencial para o contexto de transações financeiras. Além disso, eu também respondi as mesmas 12 perguntas em SQL para explorar ambas abordagens.
 
 <h2 id="aboutproject">📝 Especificação do Projeto</h2>
+O projto consiste em responder as seguintes perguntas:  
 
-<h2 id="helpful">🔗 Links úteis</h2>
-<!--
-[O que é e como funciona o KNN](https://www.atlassian.com/br/git/tutorials/making-a-pull-request](https://didatica.tech/o-que-e-e-como-funciona-o-algoritmo-knn/))
-[Modelos Supervisionados vs Não Supervisionados](https://www.escoladnc.com.br/blog/aprendizado-de-maquina-modelos-supervisionados-e-nao-supervisionados) -->
+-- Qual cliente teve o maior saldo médio no mês 11? 
+
+-- Qual é o saldo de cada cliente?
+
+-- Qual é o saldo médio de clientes que receberam CashBack?
+
+-- Qual o ticket médio das quatro últimas movimentações dos usuários?
+
+-- Qual é a proporção entre Cash In/Out mensal?
+
+-- Qual a última transação de cada tipo para cada usuário?
+
+-- Qual a última transação de cada tipo para cada usuário por mês?
+
+-- Qual quatidade de usuários que movimentaram a conta?
+
+-- Qual o balanço do final de 2021?
+
+-- Quantos usuários que receberam CashBack continuaram interagindo com este banco?
+
+-- Qual a primeira e a última movimentação dos usuários com saldo maior que R$100?
+
+-- Qual o balanço das últimas quatro movimentações de cada usuário?
+
+-- Qual o ticket médio das últimas quatro movimentações de cada usuário?
